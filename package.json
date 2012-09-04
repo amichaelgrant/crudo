@@ -1,0 +1,18 @@
+{
+  "author": "mike grant <a.hunter.hunts@gmail.com>",
+  "name": "crudo",
+  "version": "1.0.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "lib/crudo.js",
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
