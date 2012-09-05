@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+var crudo = require('../lib/crudo');
+
+var args = process.argv.slice(2);
+console.log( crudo( args ) );
+

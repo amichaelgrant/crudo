@@ -7,10 +7,14 @@
   },
   "main": "lib/crudo.js",
   "scripts": {
-    "test": "node test/*.js"
+    "test": "mocha test/*.js"
   },
+  "bin" : { "crudo": "./bin/crudo"},
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+     "mocha":"*",
+     "should":"*"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
